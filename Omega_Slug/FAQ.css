@@ -1,0 +1,89 @@
+body{
+    background: url(Starter/imgs/bckFAQ.jpg);
+    font-family: "Nunito",sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 130%;
+    margin-bottom: 250px;
+    margin-top: 150px;
+}
+
+.ForMG{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.milk h2{
+    color: #EA1C2C;
+    font-weight: 200;
+    font-size: 1.9rem;
+}
+
+.milk p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+}
+
+#mainNav{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+#mainNav .navbar-brand{
+    color: #EA1C2C;
+    font-size: 2.0rem;
+
+}
+
+#mainNav .nav-link{
+    color: white;
+}
+
+#mainNav .nav-link:hover{
+     color: #EA1C2C;
+}
+
+#headingG span{
+    color: red;
+}
+
+#headingG h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(94, 94, 94);
+    transition: background 500ms;
+}
+
+.navbar{
+    background: none;
+    transition: 0.5s;
+}
+
+@media (max-width: 1600px){
+    #headingG h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(245, 0, 0);
+    font-weight: 600;
+}
+
+p{
+    text-align: center;
+    font-size: 1.1rem;
+}

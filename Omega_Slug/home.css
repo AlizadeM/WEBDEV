@@ -1,0 +1,153 @@
+body{
+    background: url(Starter/imgs/bck.png);
+    font-family: "Nunito",sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 125%;
+    margin-bottom: 250px;
+}
+
+.ForMG{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.milk h2{
+    color: #EA1C2C;
+    font-weight: 200;
+    font-size: 1.9rem;
+}
+
+.milk p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+}
+
+#mainNav{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+#mainNav .navbar-brand{
+    color: #EA1C2C;
+    font-size: 2.0rem;
+
+}
+
+#mainNav .nav-link{
+    color: white;
+}
+
+#mainNav .nav-link:hover{
+     color: #EA1C2C;
+}
+
+#headingG span{
+    color: red;
+}
+
+#headingG h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(94, 94, 94);
+    transition: background 500ms;
+}
+
+.navbar{
+    background: none;
+    transition: 0.5s;
+}
+
+@media (max-width: 1600px){
+    #headingG h1{
+        font-size: 2.5rem;
+    }
+}
+
+#jumboEdit{
+    
+    margin: 100px auto;
+    background: rgba(255, 255, 255,); /* Green background with 30% opacity */
+    font-family: 'Grenze Gotisch', cursive;
+    width: 80%;
+    height: 100%;
+
+    
+}
+
+.jumboP{
+    font-size: 2rem;
+}
+
+
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 17%;
+    border-radius: 300px 300px 0 0;
+    opacity: 0.70;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 1;
+    width: 22%;
+  }
+  
+  img {
+    border-radius: 300px 300px 300px 300px;
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  #cards{
+      margin-top: 100px;
+  }
+
+  #linkedLogo{
+      font-size: 35px;
+  }
+
+  #gitLogo{
+      margin-left: 10px;
+      font-size: 35px;
+      color: black;
+  }
+
+  #Team{
+      margin-top: 20px;
+      color: white;
+      text-align: center;
+  }
+
+  hr{
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+  }
+
+  .ourTeam{
+   
+    padding-bottom: 50px;
+    
+    
+  }
+  
+  

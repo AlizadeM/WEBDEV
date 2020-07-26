@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/a9509c2a15.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="FAQ.css">
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">Omega Slug</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle-Navbar" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="About.html" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+              <a href="FAQ.html" class="nav-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+       <h3>Who are we and why did we create this game? </h3>
+       <p>We are 4 students from Uskudar University studying computer science, trying to <br> Develop a game
+         for the sake of improving  ourselves and finishing our software internship :)</p>
+       <h3> How much time did you spend developing the game? </h3>
+       <p> We spent approximately 1 month on the game. Including the webpage (Which is made by us).</p>
+       <h3> Which programming language and engine <br> did you use for developing the project? </h3>
+        <p>We used Unity Engine for the game development which uses C# as it's programming language. <br>
+             The website was created using HTML/CSS/JS (and additional frameworks) <br>
+            The assets in game were created using illustration <br> softwares such as Adobe Illustrator, Adobe Photoshop etc. </p>
+       <h3> How much time did it cost you to develop the game? </h3>
+       <p>It didn't cost much. 90% of the assets used in the game were created by us. <br> 
+        The bought ones were either very cheap or free. 
+         Game engine was also free because <br> of us being students.The only cost was the domain and the hosting for the website</p>
+
+         <h3>Did you have fun while developing the project?</h3>
+         <p>Yes! We had a lot of fun trying to solve the bugs and the errors together. <br>
+         Although we had some troubles on the way trying to solve the problems,<br> we managed to get over them 
+        and finish the project successfully. <br>Overall this project was a very great,instructive and pleasurable experience</p>
+
+       
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+           $(document).scroll(function(){
+               var $nav = $("#mainNav");
+               $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+       })
+    </script>
+    
+</body>
+</html>

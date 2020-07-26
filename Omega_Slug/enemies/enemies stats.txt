@@ -1,0 +1,9 @@
+axeguy : can=100 hasar=10 saldırı hızı: normal
+ent : can=100 hasar=8 saldırı hızı: normal
+flying eye : can=80 hasar=5 saldırı hızı: hızlı
+goblin: can=100 hasar=8 saldırı hızı: hızlı
+mushroom: can=120 hasar=5 saldırı hızı: normal
+skeleton: can =150 hasar= 10 saldırı hızı: normal **skeleton gelen vuruşların bir kısmını bloklayabilir**
+striker: can= 250 hasar= 15 saldırı hızı: normal
+suicyclops : can=hasar yemez hasar=20 saldırı hızı:yok  **karakterimizi gördüğü zaman üstümüze koşup bir süre sonra kendisini patlatarak karatere hasar vererek kendisini yok eder**
+zombie : can=150 hasar= 15 saldırı hızı= normal
